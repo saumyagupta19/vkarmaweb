@@ -1,0 +1,54 @@
+*{
+	color:orange;
+}
+
+.container{
+
+}
+.form-container{
+	border:2px solid #fff;
+	padding:60px 80px;
+
+	margin-left: 10vw;
+	margin-right:10vw;
+
+	margin-top: 20vh;
+	box-shadow: 0 0 50px #fff;
+	background-color: #e9ecef;
+
+}
+/*
+.jumbotron{
+	background:url(../images/loginbackground9.jpg) no-repeat;
+	position: relative;
+	width:100%;
+	margin:0;
+	height:100vh;
+	background-size:cover;
+
+}
+*/
+
+
+
+.jumbotron{
+	background-color: #3ee2f7;
+	margin:0;
+	width:100%;
+}
+
+
+.form-container h1{
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+	text-shadow: 1px 1px 1px #222;
+}
+
+/***************FOR PHONES*************/
+@media(max-width:767px){
+	.form-container{
+		padding:15px 20px ;
+	}
+}
+
